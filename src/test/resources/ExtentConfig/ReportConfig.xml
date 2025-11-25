@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extentreports>
+    <Configuration>
+        <!--report theme-->
+        <theme>DARK</theme>
+        <theme>STANDARD</theme>
+
+        <!--document encoding-->
+        <encoding>UTF-8</encoding>
+
+        <!--protocol for script and style sheets-->
+        <protocol>http</protocol>
+
+        <!--document title-->
+        <documentTitle>Extent Report for this project</documentTitle>
+
+        <!--report name - displayed at the top-->
+        <reportName>Automation report for</reportName>
+
+        <!--report headline - displayed at the top-->
+        <reportHeadline>Data Driven Framework</reportHeadline>
+
+        <!-- global date format overrider -->
+        <dateFormat>yyyy-MM-dd</dateFormat>
+
+        <!-- global time format overrider -->
+        <timeFormat>HH:mm:ss</timeFormat>
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+            $(Document).ready(function(){
+            });
+            ]]>
+        </scripts>
+
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+            ]]>
+        </styles>
+    </Configuration>
+</extentreports>
