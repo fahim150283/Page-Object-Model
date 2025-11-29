@@ -1,14 +1,11 @@
 package pages;
 
+import Base.Page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class SignUpPage {
-    WebDriver driver;
+public class SignUpPage extends Page {
 
-    public SignUpPage(WebDriver driver) {
-        this.driver = driver;
-    }
     public void doSignUp(String username, String password) {
         driver.findElement(By.cssSelector("#email")).clear();
         driver.findElement(By.cssSelector("#email")).sendKeys(username);
